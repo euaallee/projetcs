@@ -50,7 +50,7 @@ header {
 
 .pesquisaBlog input {
     display: flex;
-    width: 1083px;
+    width: 60vw;
     padding: 12px 16px 12px 14px;
     align-items: center;
     gap: 12px;
@@ -92,13 +92,14 @@ header {
 }
 
 .main {
-    margin: 50px 110px 150px 110px;
+    margin: 50px 70px 150px 70px;
 }
 
 .grupoMain {
     display: flex;
     flex-direction: row;
-    gap: 64px;
+    justify-content: center;
+    gap: 50px;
 }
 
 .areaPost {
@@ -154,7 +155,7 @@ header {
 
 .textoPost {
     width: 800px;
-    height: 350px;
+    height: auto;
 
     color: var(--platform-aliases-background, #121214);
     font-family: Mulish;
@@ -194,6 +195,8 @@ header {
 }
 
 .fotoPostNew {
+    width: 150px;
+    height: 90px;
     border-radius: 5px;
 }
 
