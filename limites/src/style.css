@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* ===================Astronauta==================== */
+
+.mainScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 9.3rem;
+}
+
+.astronauta {
+    width: 36.4rem;
+    height: 37rem;
+    padding-bottom: 1.7rem;
+}
+
+.mainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainText>h1 {
+    color: #B52184;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.mainText>p {
+    color: #312D64;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.arrow {
+    padding-top: 3.5rem;
+}
+
+/* =============================================== */
+
+/* ===================Moon==================== */
+
+.secondScreen {
+    display: flex;
+    width: 100%;
+    padding: 5.3rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+.moon {
+    display: flex;
+    width: 29.9rem;
+    padding: 2.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.3rem;
+
+    border-radius: 2rem;
+    background: #FFF;
+    box-shadow: 0 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+}
+
+.textMoon>h2 {
+    color: #B52184;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.textMoon>p {
+    color: #312D64;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* =============================================== */
+
+/* ====================Form==================== */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 7.8rem 2.4rem;
+}
+
+.bodyForm {
+    margin-top: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.bodyForm>h2 {
+    color: #B52184;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.bodyForm>input {
+    display: flex;
+    width: 34.8rem;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    align-items: center;
+    gap: 1.2rem;
+
+    border-radius: 1.6rem;
+    border: 1.5px solid #312D64;
+
+    color: #312D64;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.bodyForm>input::placeholder {
+    color: #312D64;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.bodyForm>textarea {
+    display: flex;
+    width: 34.8rem;
+    padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+    align-items: flex-start;
+    gap: 1rem;
+
+    resize: none;
+
+    border-radius: 1.6rem;
+    border: 1.5px solid #312D64;
+
+    color: #312D64;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.bodyForm>textarea::placeholder {
+    color: #312D64;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.bodyForm>button {
+    display: inline-flex;
+    height: 4.5rem;
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 1.6rem;
+    border: none;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+}
+
+.star {
+    display: none;
+}
+
+/* =============================================== */
+
+/* ==================Footer================== */
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 1.6rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+}
+
+footer>p {
+    width: 30rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* =============================================== */
+
+/* ====================Media screen==================== */
+
+@media only screen and (min-width: 1361px) {
+
+    /* ===================Astronauta==================== */
+
+    .mainScreen {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 2.8rem;
+    }
+
+    .astronauta {
+        width: 70rem;
+        height: 73rem;
+    }
+
+    .mainText {
+        width: 50rem;
+        align-items: start;
+        padding-left: 11.1rem;
+    }
+    
+    .mainText>h1 {
+        width: 60rem;
+        font-size: 5.8rem;
+    }
+
+    .mainText>p {
+        width: 60rem;
+        font-size: 3.2rem;
+        text-align: start;
+    }
+
+    .arrow {
+        position: relative;
+        top: 17.9rem;
+    }
+
+    /* =============================================== */
+
+    /* ===================Moon==================== */
+
+    .secondScreen {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 6rem;
+    }
+
+    .moon {
+        width: 30.2rem;
+        height: 38.4rem;
+        align-self: stretch;
+    }
+
+    /* =============================================== */
+
+    /* ===================Form==================== */
+
+    .threeScreen {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5rem;
+    }
+
+    .form {
+        flex-direction: row;
+        padding-left: 2rem;
+    }
+    
+    .bodyForm>input {
+        display: flex;
+        width: 59.2rem;
+        padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .bodyForm>h2 {
+        font-size: 4.2rem;
+    }
+    
+    .bodyForm>textarea {
+        display: flex;
+        width: 59.2rem;
+        padding: 1.2rem 1.6rem 1.6rem 1.6rem;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .star {
+        display: block;
+        width: 68rem;
+    }
+
+}
